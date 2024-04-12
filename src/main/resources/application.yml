@@ -1,3 +1,12 @@
 bot:
   name: WowDemoBot
-  token: 7082121873:AAENqZP0tH9Ya90vMV0aI1XjqufwQyrrfEc
+  token: 7082121873:AAE3ELn53p5qVaP_VF68xz0kNHDmkisCapg
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/postgres
+    username: postgres
+    password: 1452
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog-master.yaml

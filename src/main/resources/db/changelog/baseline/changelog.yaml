@@ -1,0 +1,4 @@
+databaseChangeLog:
+  - include:
+      file: 20242003_2010_create_tips_table.xml
+      relativeToChangelogFile: true
